@@ -7,7 +7,7 @@ while True:
         keywords = keywords.lower()
         keywords = keywords.split(",")
 
-    txtContents = input('Provide path to file: ')
+    txtContents = input('Provide path to file or paste text: ')
     if os.path.exists(txtContents):
         with open(txtContents, 'r', encoding='utf-8') as txtContents:
             txtContents = txtContents.read().replace('\n', ' ')
