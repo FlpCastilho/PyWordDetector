@@ -12,12 +12,13 @@ while True:
         with open(txtContents, 'r', encoding='utf-8') as txtContents:
             txtContents = txtContents.read().replace('\n', ' ')
             txtContents = txtContents.lower()
-            #txtWords = txtContents.split()
+            txtContents = " " + txtContents
             result = [i for i in keywords if(i in txtContents)]
             print('Does the text contain words from the keywords list: ' + str(bool(result)))
             continue
     else:
             txtContents = txtContents.lower()
+            txtContents = " " + txtContents
             result = [i for i in keywords if(i in txtContents)]
             print('Does the text contain words from the keywords list: ' + str(bool(result)))
             continue
