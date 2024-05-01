@@ -35,11 +35,11 @@ No, the script converts everything to lowercase to avoid false negatives.
 
 #### Does this identify only whole words?
 
-By design the script will mark a postive if a word from the target text contains part of a word from the ```keywords.txt``` list, for exemple: if you put the word "pull" in your keywords the word "pulling" in the target text will be marked as a positive.
+By design the script will mark a positive if a word from the target text contains part of a word from the ```keywords.txt``` list, for example: if you put the word "pull" in your keywords the word "pulling" in the target text will be marked as a positive.
 
 #### How do I set my keywords?
 
-To set your keywords simply modify the ```keywords.txt``` document with the keywords you want to detect, remember to separte each keyword with a comma ```just, like, this```
+To set your keywords simply modify the ```keywords.txt``` document with the keywords you want to detect, remember to separate each keyword with a comma ```just, like, this```
 
 ## License
 
